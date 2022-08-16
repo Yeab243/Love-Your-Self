@@ -8,6 +8,11 @@ body, html{margin:0;font:normal 0/0 Arial, Helvetica, sans-serif;background:#47d
 }
 body, html, .flipper, .f, .b, #g {width:100%;height:100%;}
 
+.upgrade {
+	color: #1e1928;
+	font-weight: 500;
+}
+
 /* font-face */
 @font-face{font-family: "GeneralFoundicons";font-weight:normal;font-style:normal;
 	src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/60583/general_foundicons.eot");
@@ -25,7 +30,7 @@ a:hover{color:#fff;background:rgba(255, 255, 255, .1)}
 .logo .card.left.active{z-index:2}
 .logo .card.left.active + .card{opacity:0}
 .logo .card.left.active .b{margin-left:-100%}
-.logo .f{font:normal 130px/225px 'Open Sans';text-align:center;text-transform:uppercase;}
+.logo .f{font:normal 30px/225px 'Open Sans';text-align:center;text-transform:uppercase;}
 .logo .c2{transform:scale(-1, 1);-webkit-transform:scale(-1, 1);-moz-transform:scale(-1, 1);-ms-transform:scale(-1, 1)}
 
 .logo .contentbox{width:200%;font:normal 12px/16px 'Open Sans';text-align:left}
